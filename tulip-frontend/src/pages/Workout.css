@@ -1,0 +1,26 @@
+/* Workout.css */
+.react-calendar__tile {
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Workout days - tulip green */
+.tulip-green {
+  background-color: #34d69b !important; /* tulip green pastel */
+  color: #2d6a4f !important;
+  font-weight: 600;
+  border-radius: 10px !important;
+}
+
+/* Rest days - tulip pink */
+.tulip-pink {
+  background-color: #ed3b9a !important; /* tulip pink pastel */
+  color: #6b2737 !important;
+  font-weight: 600;
+  border-radius: 10px !important;
+}
+
+/* On hover, slightly brighten */
+.react-calendar__tile:hover {
+  filter: brightness(1.05);
+}

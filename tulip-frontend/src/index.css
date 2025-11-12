@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset browser default spacing */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Prevent any accidental white space */
+body {
+  overflow-x: hidden;
+  background-color: transparent;
+}
+/* 🌷 Tulip Pink Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffeef5; /* soft pink background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f4b6c2; /* tulip pink */
+  border-radius: 10px;
+  border: 2px solid #ffeef5; /* subtle border */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f28ca0; /* darker pink on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f4b6c2 #ffeef5;
+}
+
